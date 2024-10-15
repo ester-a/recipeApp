@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "font-awesome/css/font-awesome.min.css";
+
+import "./App.css";
 
 function App() {
- 
-
   return (
-    <>
-    <h1>Lets start with my new project:)</h1>
-    </>
-  )
+    <div className="font-Nunito">
+      <h1 className="text-3xl flex items-center">
+        My Recipe App
+      </h1>
+    </div>
+  );
 }
 
-export default App
+export default App;
